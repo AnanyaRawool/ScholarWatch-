@@ -9,7 +9,7 @@ public class conn {
     Statement s;
     conn(){
         String username = "root";
-        String password = "ananya@03102004";
+        String password = "";
         String url = "jdbc:mysql://localhost:3306/studmonsys2";
         try{
             c = DriverManager.getConnection(url, username,password);
@@ -22,3 +22,4 @@ public class conn {
     }
 
 }
+
