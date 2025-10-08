@@ -14,7 +14,7 @@ public class conn {
         try{
             c = DriverManager.getConnection(url, username,password);
             s = c.createStatement();
-            System.out.println("paplu bhai");
+            System.out.println(".......");
 
         }catch (Exception e){
             System.out.println("Connection failed");
@@ -22,4 +22,5 @@ public class conn {
     }
 
 }
+
 
